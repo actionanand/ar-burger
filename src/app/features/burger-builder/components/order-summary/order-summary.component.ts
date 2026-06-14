@@ -20,12 +20,8 @@ import { ButtonComponent } from '../../../../shared/components/button/button.com
       Total Price: <strong>₹ {{ price().toFixed(2) }}</strong>
     </p>
     <p>Continue to Checkout?</p>
-    <button appButton type="button" variant="danger" (click)="purchaseCancelled.emit()">
-      CANCEL
-    </button>
-    <button appButton type="button" variant="success" (click)="purchaseContinued.emit()">
-      CONTINUE
-    </button>
+    <app-button variant="danger" (pressed)="purchaseCancelled.emit()">CANCEL</app-button>
+    <app-button variant="success" (pressed)="purchaseContinued.emit()">CONTINUE</app-button>
   `,
   styleUrl: './order-summary.component.scss',
 })

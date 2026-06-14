@@ -1,10 +1,15 @@
+:host {
+  display: block;
+  margin-top: auto;
+  width: 100%;
+}
+
 .build-controls {
   align-items: center;
   background-color: #cf8f2e;
   box-shadow: 0 2px 1px #ccc;
   display: flex;
   flex-flow: column;
-  margin: auto;
   padding: 10px 0;
   width: 100%;
 }
