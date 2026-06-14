@@ -1,0 +1,19 @@
+.order {
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+}
+
+.cod {
+  color: #147000;
+}
+
+.not-ordered {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 80px;
+  text-align: center;
+}

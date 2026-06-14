@@ -1,0 +1,53 @@
+.build-controls {
+  align-items: center;
+  background-color: #cf8f2e;
+  box-shadow: 0 2px 1px #ccc;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.order-button {
+  background-color: #dad735;
+  border: 1px solid #966909;
+  box-shadow: 2px 2px 2px #966909;
+  color: #966909;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.2rem;
+  margin-top: 8px;
+  min-height: 54px;
+  padding: 15px 30px;
+}
+
+.order-button:hover:not(:disabled),
+.order-button:active:not(:disabled) {
+  background-color: #a0db41;
+}
+
+.order-button:disabled {
+  background-color: #c7c6c6;
+  border-color: #ccc;
+  color: #555;
+  cursor: not-allowed;
+}
+
+.order-button:not(:disabled) {
+  animation: enable 0.3s linear;
+}
+
+@keyframes enable {
+  0% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
