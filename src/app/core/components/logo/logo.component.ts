@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   imports: [NgOptimizedImage],
   template: `
     <div class="logo">
-      <img ngSrc="/burger-logo.png" width="400" height="256" alt="MyBurger" priority />
+      <img ngSrc="burger-logo.png" width="400" height="256" alt="MyBurger" priority />
     </div>
   `,
   styleUrl: './logo.component.scss',
