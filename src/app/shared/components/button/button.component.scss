@@ -1,0 +1,23 @@
+:host {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font: inherit;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
+
+:host(:first-of-type) {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+:host(.success) {
+  color: #3f6e08;
+}
+
+:host(.danger) {
+  color: #944317;
+}
