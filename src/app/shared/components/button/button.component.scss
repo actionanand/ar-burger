@@ -1,4 +1,4 @@
-:host {
+.button {
   background-color: transparent;
   border: 0;
   color: white;
@@ -9,15 +9,15 @@
   padding: 10px;
 }
 
-:host(:first-of-type) {
+.button:first-of-type {
   margin-left: 0;
   padding-left: 0;
 }
 
-:host(.success) {
+.button.success {
   color: #3f6e08;
 }
 
-:host(.danger) {
+.button.danger {
   color: #944317;
 }
